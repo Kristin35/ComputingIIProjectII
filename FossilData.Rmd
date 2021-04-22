@@ -27,7 +27,7 @@ FossilDatabase <- data.frame("Fossil_Type" = c("Ammonites", "", "", "", "", "", 
 ```{r echo=FALSE}
 library(knitr)
 fossils <- FossilDatabase
-kable(fossils[1:45, ], caption = "this is now getting annoying.")
+kable(fossils[1:45, ], caption = "Database of the Ammonites and the Mazon Creek Fossils")
 ```
 
 ![MOLAM0001](MOLAM0001.png) 
