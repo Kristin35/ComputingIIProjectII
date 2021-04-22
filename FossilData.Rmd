@@ -30,3 +30,42 @@ fossils <- FossilDatabase
 kable(fossils[1:45, ], caption = "this is now getting annoying.")
 ```
 
+![MOLAM0001](MOLAM0001.png) 
+
+![MOLAM0002](MOLAM0002.png)
+
+![MOLAM0003](MOLAM0003.png)
+
+![MOLAM0004](MOLAM0004.png)
+
+![MOLAM0005](MOLAM0005.png)
+
+![MOLAM0006](MOLAM0006.png)
+
+![MOLAM0007](MOLAM0007.png)
+
+![MOLAM0008](MOLAM0008.png)
+
+![MOLAM0009](MOLAM0009.png)
+
+![MOLAM0010](MOLAM0010.png)
+
+![MOLAM0011](MOLAM0011.png)
+
+Still need 12
+ 
+![MOLAM0013](MOLAM0013.png)
+
+![MOLAM0014](MOLAM0014.png)
+
+![MOLAM0015](MOLAM0015.png) 
+
+and 16
+
+![MOLAM0017](MOLAM0017.png)
+
+![MOLAM0018](MOLAM0018.png)
+
+![MAZCRK0001](MAZCRK0001.png)
+
+![MAZCRK0002](MAZCRK0002.png)
