@@ -48,7 +48,7 @@ kable(fossils[1:45, ], caption = "Database of the Ammonites and the Mazon Creek 
 
 ![MOLAM0009](MOLAM0009.png)
 
-![MOLAM00010](MOLAM0010.png)
+![MOLAM00010](MOLAM00010.png)
 
 ![MOLAM0011](MOLAM0011.png)
 
