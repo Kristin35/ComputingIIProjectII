@@ -74,7 +74,6 @@ kable(fossils[1:45, ], caption = "Database of the Ammonites and the Mazon Creek 
 
 ![MAZCRK0004](MAZCRK0004.png)
 
-
 ![MAZCRK0005](MAZCRK0005.png)
 
 ![MAZCRK0006](MAZCRK0006.png)
@@ -82,7 +81,6 @@ kable(fossils[1:45, ], caption = "Database of the Ammonites and the Mazon Creek 
 ![MAZCRK0007](MAZCRK0007.png)
 
 ![MAZCRK0008](MAZCRK0008.png)
-
 
 ![MAZCRK0009](MAZCRK0009.png)
 
