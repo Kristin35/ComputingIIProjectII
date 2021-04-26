@@ -52,7 +52,7 @@ kable(fossils[1:45, ], caption = "Database of the Ammonites and the Mazon Creek 
 
 ![MOLAM0011](MOLAM0011.png)
 
-Still need 12
+![MOLAM0012](MOLAM0012.png)
  
 ![MOLAM0013](MOLAM0013.png)
 
@@ -60,7 +60,7 @@ Still need 12
 
 ![MOLAM0015](MOLAM0015.png) 
 
-and 16
+![MOLAM0016](MOLAM0016.png)
 
 ![MOLAM0017](MOLAM0017.png)
 
@@ -133,10 +133,6 @@ and 16
 ![MAZCRK0032](MAZCRK0032.png)
 
 ![MAZCRK0033](MAZCRK0033.png)
-
-![MAZCRK0034](MAZCRK0034.png)
-
-![MAZCRK0035](MAZCRK0035.png)
 
 ![MAZCRK0036](MAZCRK0036.png)
 
