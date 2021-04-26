@@ -4,7 +4,8 @@ author: "Meagan Crowson, Kristin Grandstaff, Sarah Powell, Andrea Redmond, Breck
 date: "4/26/2021"
 output: html_document
 ---
- 
+ Our Original Database:
+ https://github.com/Kristin35/ComputingIIProject
 
 ```{r echo=FALSE}
 FossilDatabase <- data.frame("Fossil_Type" = c("Ammonites", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "Mazon_Creek", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""), 
