@@ -7,8 +7,8 @@ output: html_document
  Our Original Database:
  https://github.com/Kristin35/ComputingIIProject
  
- #Below is our data frame which contains all available information about the Ammonite and Mazon Creek Fossils that Dr. Utt wanted us to input. 
- #The data frame outputs to an HTML table with various categories including a name with a five letter and four digit code that references each fossil and will be used later to reference pictures of each fossil. 
+ #Below is our data frame which contains all available information about the Ammonite and Mazon Creek Fossils that Dr. Utt wanted us to input. All of the information collected was provided by Dr.Utt as well. 
+ #The data frame outputs to an HTML table with various categories including a name with a five letter and four digit code that references each fossil and will be used later to reference pictures of each fossil. Each of the sections in the database directly below contain the different information for each Ammonite and Mazon creek fossil inputted. The first section is the table headers for the two sections of fossils. In all of the other sections, the first and twentieth set of quotation marks are left empty to keep the row empty for the table headers. All of the other quotation marks are filled in sequential order according to the fossil being inputted. 
 
 ```{r echo=FALSE}
 FossilDatabase <- data.frame("Fossil_Type" = c("Ammonites", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "Mazon_Creek", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""), 
@@ -28,14 +28,14 @@ FossilDatabase <- data.frame("Fossil_Type" = c("Ammonites", "", "", "", "", "", 
                               "Images" = c("", "MOLAM0001", "MOLAM0002", "MOLAM0003", "MOLAM0004", "MOLAM0005", "MOLAM0006", "MOLAM0007", "MOLAM0008", "MOLAM0009", "MOLAM00010", "MOLAM00011", "MOLAM00012", "MOLAM00013", "MOLAM00014", "MOLAM00015", "MOLAM00016", "MOLAM00017", "MOLAM00018", "", "MAZCRK0001", "MAZCRK0002", "MAZCRK0003", "MAZCRK0004", "MAZCRK0005", "MAZCRK0006", "MAZCRK0007", "MAZCRK0008", "MAZCRK0009", "MAZCRK0010", "MAZCRK0011", "MAZCRK0012", "MAZCRK0013", "MAZCRK0014", "MAZCRK0015", "MAZCRK0016", "MAZCRK0017", "MAZCRK0018", "MAZCRK0019", "MAZCRK0020", "MAZCRK0021", "MAZCRK0022", "MAZCRK0023", "MAZCRK0024", "MAZCRK0025", "MAZCRK0026", "MAZCRK0027", "MAZCRK0028", "MAZCRK0029", "MAZCRK0030", "MAZCRK0031", "MAZCRK0032", "MAZCRK0033", "MAZCRK0034", "MAZCRK0035", "MAZCRK0036", "MAZCRK0037"))
 ```
 
-#The code below allows for a photo of each fossil to be output into the HTML file by drawing from the saved png file in the ComputingIIProjectII file.
-#Each photo is knit with the five letter four digit code that references the name in the table. 
+ #The code below allows for a photo of each fossil to be output into the HTML file by drawing from the saved png file in the ComputingIIProjectII file. On the first code line, the knitr file was imported once, and the library function was used to pull that file to format the table. The database was then renamed fossils for a shorter title in the kable code line. On the last line of code, the kable function is used to output a single table for a single database. In this case, kable took all of the data in the FossilDatabase dataframe and returned a single table that contains 45 rows of data and a caption for the table title.
 
 ```{r echo=FALSE}
 library(knitr)
 fossils <- FossilDatabase
 kable(fossils[1:45, ], caption = "Database of the Ammonites and the Mazon Creek Fossils")
 ```
+ #The code below allows for the different images to be outputted. Each photo is knit with the five letter four digit code that references the name in the table. The photos were first downloaded and saved in a .png format, and then the exact name of the saved file was typed below for the code to read. The information inside the brackets is the caption for each photo, and, for this project, the captions were named as the fossil they show.
 
 ![MOLAM0001](MOLAM0001.png) 
 
